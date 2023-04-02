@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+}
+
+/* header (logo + name + navigation) */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+/* header (logo + name) */
+.header_left {
+    margin-top: 20px;
+    display: flex;
+} 
+
+/* logo (name) */
+.header_logo {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-size: 18px; 
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color:#000000;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+/* navigation - about us, etc */
+.nav {
+    margin-top: 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #081E34;
+}
+
+/* button nav */
+.get_started{
+    margin-right: 87.32px; 
+    background-color: #081E341F;
+    width: 102px;
+    height: 38px;
+    color: #081E34;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px, 12px, 10px, 12px;
+    gap: 8px;
+}
+
+/* item - text in nav */
+.item {
+    margin: 20px;
+}
+
+/* first page (content + button + img) */
+.first_page {
+    display: flex;
+    flex-direction: row;
+}
+
+/* content - text + button */
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 131px;
+    margin-top: 70px;
+}
+/* Title - Get hired */
+.title {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: #000000;
+}
+
+/* Intro - subtitle */
+.subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    width: 495px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+/* button-1 */
+.button_1 {
+    width: 144px;
+    height: 50px;
+    background-color: #712FFF;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 100px;
+    border: none;
+}
+
+/* second page (block1 + 3rows)*/
+.second_page {
+    margin-top: 74px;
+    height: 562px;
+    width: 100%;
+    background-color: #E1DEE7;
+    border-radius: 32px;
+    gap: 86px; 
+}
+
+/* head of 2nd page */
+.block_1 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+/* title - small */
+.sub_1{
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 103px;
+}
+
+/* title - how it works */
+.sub_2 {
+    font-family:'Kanit';
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+/* 3 rows */
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-evenly;
+    margin-left: 80px;
+    margin-top: 45px;
+}
+
+/* bold text in rows */
+.title_2page{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* subtitle text in rows */
+.subtitle_2page {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.row{
+    flex: 1 1 auto;
+    /* margin 5px; */
+}
+
+/* 3page (3 columns) */
+.third_page{
+    display: flex;
+    flex-direction: column;
+}
+
+/* title 3page */
+.title_3page {
+    margin-top: 100px;
+    margin-left: 80px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color:#000000;
+    width: 495px;
+    height: 64px;
+}
+
+/* subtitle 3page */
+.subtitle_3page{
+    width: 495px;
+    height: 44px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+
+    margin-bottom: 32px;
+}
+
+/* div = search + purple button */
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 141px;
+}
+
+/* div = icon + search input */
+.box{
+    margin-left: 80px;
+    width: 619px;
+    height: 30px;
+    background-color: white;
+    color: #E1DEE7; 
+    Border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.box > inputSearch{
+    height: 40px; 
+    width: 619px;
+    border: none;
+    outline: none;
+    font-size: 16px; 
+    padding-left: 15px;
+}
+
+/* input */
+.inputSearch{
+    width: 619px;
+    height: 40px;
+    border-radius: 10px; 
+    border: 1px; 
+    border-color: #E1DEE7; 
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 22px;
+    opacity: 0.2;
+}
+
+/* button - search job */
+.button_2{
+    width: 106px;
+    height: 50px;
+    background: #712FFF;
+    border-radius: 100px;
+    padding: 16px 24px;
+    border: none;
+    gap: 10px;
+    margin-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+}
+
+/* page - pic & upload cv */
+.fourth_page{
+    display: flex;
+    flex-direction: row;
+}
+
+/* text 4page (title + sub + button)*/
+.page4_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: center;
+    margin-left: 87px;
+    margin-right: 118px;
+
+}
+/* title 4page */
+.title_4page{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+/* subtitle 4page */
+.subtitle_4page{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    width: 495px;
+    height: 44px;
+    margin-bottom: 32px; 
+}
+
+/* button upload CV*/
+.button_3 {
+    padding: 16px 24px 16px 16px;
+    gap: 8px;
+    width: 114px;
+    height: 50px;
+    background: #712FFF;
+    border-radius: 100px;
+    border: none;
+
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/* white footer */
+.footer{
+    background-color: white;
+    border-radius: 32px 32px 0px 0px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 1 row - text, icons, credits */
+.navigation_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* navig + icons */
+.nav_1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+
+    margin-top: 42px;
+    margin-left: 92px;
+}
+
+/* home, about us... */
+.nav_text{
+    margin: 20px;
+}
+
+/* credits line */
+.credits_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.5;
+    color: #081E34;
+    margin-top: 46px; 
+    margin-right: 90px;
+}
+
+/* text - made with  */
+.text_footer {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+    margin-top: 40px;
+}
